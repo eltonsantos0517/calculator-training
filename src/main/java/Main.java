@@ -7,7 +7,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         FormatInput formatInput = new FormatInput(scanner.nextLine());
 
-        Operation sum = new SumSquare();
+        Operation sum = new Sum();
         Operation sub = new Subtract();
         Operation multi = new Multiplication();
         Operation div = new Division();
